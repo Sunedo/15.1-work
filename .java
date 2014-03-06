@@ -47,7 +47,7 @@ public class TestFunctions{
 }
 
   class Functions{
-    Function(){
+    Functions(){
     }
     
     double a2 = 0;
@@ -59,7 +59,7 @@ public class TestFunctions{
     double g2 = 0;
     
     
-    Function( double a1, double b1, double c1, double d1, double e1, double f1, double g1){
+    Functions( double a1, double b1, double c1, double d1, double e1, double f1, double g1){
       a2 = a1;
       b2 = b1;
       c2 = c1;
@@ -82,7 +82,7 @@ public class TestFunctions{
     }
     
     double getFunction_d(){
-      return (Math.tan(d2))
+      return (Math.tan(d2));
     }
 
     double getFunction_e(){
