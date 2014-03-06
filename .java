@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-publi class TestFunctions{
+public class TestFunctions{
   public static void main(String[] args){
     Scanner input = new Scanner(System.in);
     
