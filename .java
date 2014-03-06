@@ -29,19 +29,19 @@ publi class TestFunctions{
     
     Functions answer = new Functions(a1, b1, c1, d1, e1, f1, g1);
     
-    System.out.println("The answer to function a is:" +  );
+    System.out.println("The answer to function a is:" + answer.getFunction_a() );
     
-    System.out.println("The answer to function b is:" + );
+    System.out.println("The answer to function b is:" + answer.getFunction_b() );
     
-    System.out.println("The answer to function c is:" +  );
+    System.out.println("The answer to function c is:" + answer.getFunction_c() );
     
-    System.out.println("The answer to function d is:" +  );
+    System.out.println("The answer to function d is:" + answer.getFunction_d() );
     
-    System.out.println("The answer to function e is:" +  );
+    System.out.println("The answer to function e is:" + answer.getFunction_e() );
     
-    System.out.println("The answer to function f is:" +  );
+    System.out.println("The answer to function f is:" + answer.getFunction_f() );
     
-    System.out.println("The answer to function g is:" +  );
+    System.out.println("The answer to function g is:" + answer.getFunction_g() );
     
     }
 }
@@ -69,32 +69,32 @@ publi class TestFunctions{
       g2 = g1;
     }
     
-    double getFunctiona(){
+    double getFunction_a(){
       return (Math.pow(a2, 2));
     }
     
-    double getFunctionb(){
+    double getFunction_b(){
       return (Math.sin(b2));
     }
     
-    double getFunctionc(){
+    double getFunction_c(){
       return (Math.cos(c2));
     }
     
-    double getFunctiond(){
+    double getFunction_d(){
       return (Math.tan(d2))
     }
 
-    double getFunctione(){
-      
+    double getFunction_e(){
+      return (Math.cos(e2) + 5 * Math.sin(e2));
     }
     
-    double getFunctionf(){
-      
+    double getFunction_f(){
+      return (5 * Math.cos(f2) + Math.sin(f2));
     }    
     
-    double getFunctiong(){
-      
+    double getFunction_g(){
+      return (Math.log(g2) + g2);
     }
   
   }
